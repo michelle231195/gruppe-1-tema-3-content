@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+header{
+  position: absolute;
+  background-color: #215766;
+  padding: 10px;
+  width: 100%;
+  max-height: 75px;
+}
+
+h3{
+  padding: 15px 0px 15px 75px;
+}
+
+h4{
+  color: #215766; /*I Skal bruge den her farve til alle overskrifter*/
+}
+
+#logo{
+  width: 75px;
+  float: left;
+  max-height: 75px;
+}
+
+div{
+  float: right;
+  top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+footer{
+  background-color: #BFBAA3;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.fa-facebook-square{
+  padding: 3px 10px;
+}
+
+.fa-instagram{
+  padding: 3px 10px;
+}
+
+@media screen and (min-width: 750px) {
+body{
+  background-color: #BFBAA3;
+}
+}/*Her slutter 750px*/
+
+
+media screen and (min-width:1100px){
+
+
+}/*Her slutter 1100px*/
